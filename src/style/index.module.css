@@ -12,3 +12,13 @@
 .welcomeBannerSubtitle {
   font-family: "Raleway";
 }
+
+.bioContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bioCopy {
+    max-width: 26rem;
+}

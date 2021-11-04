@@ -28,23 +28,23 @@ const IndexPage = () => (
       This is an intro paragraph. Look at the company Instagram to really tell a good story.
     </p>
 
-    <div>
+    <div className={styles.bioContainer}>
       <StaticImage
         src="../images/gatsby-astronaut.png"
-        width={120}
+        width={220}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
         style={{ marginBottom: `1.45rem` }}
       />
-      <p>This is the bio of someone. This is more details, and we should probably get these details from somewhere and agree on the copy and what it's going to say. But it will probably be something fancy and regal and simple and nice. Their picture should also be in an oval.</p>
+      <p className={styles.bioCopy}>This is the bio of someone. This is more details, and we should probably get these details from somewhere and agree on the copy and what it's going to say. But it will probably be something fancy and regal and simple and nice. Their picture should also be in an oval.</p>
     </div>
 
-    <div>
-      <p>This is the bio of someone else. This is more details, and we should probably get these details from somewhere and agree on the copy and what it's going to say. But it will probably be something fancy and regal and simple and nice. Their picture should also be in an oval.</p>
+    <div className={styles.bioContainer}>
+      <p className={styles.bioCopy}>This is the bio of someone else. This is more details, and we should probably get these details from somewhere and agree on the copy and what it's going to say. But it will probably be something fancy and regal and simple and nice. Their picture should also be in an oval.</p>
       <StaticImage
         src="../images/gatsby-astronaut.png"
-        width={120}
+        width={220}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -88,7 +88,7 @@ const IndexPage = () => (
 
       <StaticImage
         src="../images/gatsby-astronaut.png"
-        width={120}
+        width={121}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -97,7 +97,7 @@ const IndexPage = () => (
 
       <StaticImage
         src="../images/gatsby-astronaut.png"
-        width={120}
+        width={122}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -106,7 +106,7 @@ const IndexPage = () => (
 
       <StaticImage
         src="../images/gatsby-astronaut.png"
-        width={120}
+        width={123}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
