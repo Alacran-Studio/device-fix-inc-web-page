@@ -13,12 +13,16 @@
   font-family: "Raleway";
 }
 
+.Subtitle {
+  font-family: "Playball";
+}
+
 .bioContainer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .bioCopy {
-    max-width: 26rem;
+  max-width: 26rem;
 }
