@@ -31,8 +31,8 @@ const IndexPage = () => (
 
     <div className={styles.bioContainer}>
       <StaticImage
-        src="../images/man-2.jpg"
-        width={220}
+        src="../images/man2-circle.png"
+        width={360}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -54,7 +54,7 @@ const IndexPage = () => (
         simple and nice. Their picture should also be in an oval.
       </p>
       <StaticImage
-        src="../images/man-1.jpg"
+        src="../images/man1-circle.png"
         width={360}
         quality={95}
         formats={["auto", "webp", "avif"]}
@@ -163,19 +163,22 @@ const IndexPage = () => (
 
     <hr />
 
-    <div>
+    <div className={styles.centering}>
       <p>Thank you for your support!</p>
       <p>
-        Make sure to follow us on Instagram{" "}
-        <StaticImage
-          src="../images/instagram-icon.png"
-          width={60}
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt="A Gatsby astronaut"
-          style={{ marginBottom: `1.45rem` }}
-        />
-        <span>-insert Instagram icon here-</span>
+        Follow us on Instagram{" "}
+        <p>
+          <a href="https://www.instagram.com/devicefixinc/" target="blank">
+            <StaticImage
+              src="../images/instagram-icon.png"
+              width={60}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </a>
+        </p>
       </p>
     </div>
   </Layout>
