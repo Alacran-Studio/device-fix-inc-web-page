@@ -14,8 +14,8 @@ const IndexPage = () => (
     <div className={styles.welcomeBannerContainer}>
       <h1 className={styles.welcomeBannerTitle}>Device Repair Shop</h1>
       <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={300}
+        src="../images/repair-shop.jpg"
+        width={600}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -30,7 +30,7 @@ const IndexPage = () => (
 
     <div className={styles.bioContainer}>
       <StaticImage
-        src="../images/gatsby-astronaut.png"
+        src="../images/man-2.jpg"
         width={220}
         quality={95}
         formats={["auto", "webp", "avif"]}
@@ -43,8 +43,8 @@ const IndexPage = () => (
     <div className={styles.bioContainer}>
       <p className={styles.bioCopy}>This is the bio of someone else. This is more details, and we should probably get these details from somewhere and agree on the copy and what it's going to say. But it will probably be something fancy and regal and simple and nice. Their picture should also be in an oval.</p>
       <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={220}
+        src="../images/man-1.jpg"
+        width={360}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -78,8 +78,8 @@ const IndexPage = () => (
       <h1>Gallery</h1>
 
       <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={120}
+        src="../images/phone-case.jpg"
+        width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -87,8 +87,8 @@ const IndexPage = () => (
       />
 
       <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={121}
+        src="../images/phone-cases.jpg"
+        width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -96,8 +96,8 @@ const IndexPage = () => (
       />
 
       <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={122}
+        src="../images/microchip-2.jpg"
+        width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -105,8 +105,44 @@ const IndexPage = () => (
       />
 
       <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={123}
+        src="../images/soldering.jpg"
+        width={400}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      />
+
+      <StaticImage
+        src="../images/mario-and-yoshi.jpg"
+        width={400}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      />
+
+      <StaticImage
+        src="../images/super-nintendo-controller.jpg"
+        width={400}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      />
+
+      <StaticImage
+        src="../images/ps4-controller.jpg"
+        width={400}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      />
+
+      <StaticImage
+        src="../images/open-phone.jpg"
+        width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
