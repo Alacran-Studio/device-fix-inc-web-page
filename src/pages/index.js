@@ -73,7 +73,7 @@ const IndexPage = () => (
         <br />
         Chicago, IL 60608
       </p>
-      <h2 className={styles.Subtitle}>Hours of Operation</h2>
+      <h2 className={styles.subtitle}>Hours of Operation</h2>
       <p>
         11AM-6PM Monday thru Friday
         <br />
