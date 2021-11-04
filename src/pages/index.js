@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import * as styles from '../style/index.module.css'
+import * as styles from "../style/index.module.css"
 
 const IndexPage = () => (
   <Layout>
@@ -21,9 +21,8 @@ const IndexPage = () => (
         alt="A Gatsby astronaut"
         style={{ marginBottom: `1.45rem` }}
       />
-      <h2>COMMUNITY MATTERS</h2>
+      <h2 className={styles.welcomeBannerSubtitle}>COMMUNITY MATTERS</h2>
     </div>
-
 
     <p>
       This is an intro paragraph. Look at the company Instagram to really tell a good story.
