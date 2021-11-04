@@ -1,9 +1,14 @@
 .welcomeBannerContainer {
-    background-color: #263F39;
-    color: #EBEFEF;
-    text-align: center;
+  background-color: #263f39;
+  color: #ebefef;
+  text-align: center;
 }
 
 .welcomeBannerTitle {
-    color: #D8A062;
+  color: #d8a062;
+  font-family: "Playball";
+}
+
+.welcomeBannerSubtitle {
+  font-family: "Raleway";
 }

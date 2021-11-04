@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import * as styles from '../style/index.module.css'
+import * as styles from "../style/index.module.css"
 
 const IndexPage = () => (
   <Layout>
@@ -21,9 +21,8 @@ const IndexPage = () => (
         alt="A Gatsby astronaut"
         style={{ marginBottom: `1.45rem` }}
       />
-      <h2>COMMUNITY MATTERS</h2>
+      <h2 className={styles.welcomeBannerSubtitle}>COMMUNITY MATTERS</h2>
     </div>
-
 
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
