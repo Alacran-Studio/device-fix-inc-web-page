@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Seo title="Home" />
 
     <div className={styles.welcomeBannerContainer}>
-      <h1 className={styles.welcomeBannerTitle}>Device Repair Shop</h1>
+      <h1 className={styles.welcomeBannerTitle}>Device Fix Inc.</h1>
       <StaticImage
         src="../images/repair-shop.jpg"
         width={600}
@@ -26,12 +26,12 @@ const IndexPage = () => (
 
     <div className={styles.centering}>
       <p>
-        This is an intro paragraph. 
-        This is where we really tell the story of who the business is, what they do, and why they do it.
-        Visitors will be able to visit this site to learn more about the business, find hot deals, and receive a service quickly, easily, and pain-free.
+        This is an intro paragraph. This is where we really tell the story of
+        who the business is, what they do, and why they do it. Visitors will be
+        able to visit this site to learn more about the business, find hot
+        deals, and receive a service quickly, easily, and pain-free.
       </p>
     </div>
-
 
     <div className={styles.flexContainer}>
       <StaticImage
