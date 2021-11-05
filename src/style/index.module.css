@@ -17,6 +17,10 @@
   font-family: "Playball";
 }
 
+.centering {
+  text-align: center;
+}
+
 .bioContainer {
   display: flex;
   justify-content: space-between;
