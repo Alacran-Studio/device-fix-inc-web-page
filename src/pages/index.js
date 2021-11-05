@@ -24,12 +24,16 @@ const IndexPage = () => (
       <h2 className={styles.welcomeBannerSubtitle}>COMMUNITY MATTERS</h2>
     </div>
 
-    <p>
-      This is an intro paragraph. Look at the company Instagram to really tell a
-      good story.
-    </p>
+    <div className={styles.centering}>
+      <p>
+        This is an intro paragraph. 
+        This is where we really tell the story of who the business is, what they do, and why they do it.
+        Visitors will be able to visit this site to learn more about the business, find hot deals, and receive a service quickly, easily, and pain-free.
+      </p>
+    </div>
 
-    <div className={styles.bioContainer}>
+
+    <div className={styles.flexContainer}>
       <StaticImage
         src="../images/man2-circle.png"
         width={360}
@@ -46,7 +50,7 @@ const IndexPage = () => (
       </p>
     </div>
 
-    <div className={styles.bioContainer}>
+    <div className={styles.flexContainer}>
       <p className={styles.bioCopy}>
         This is the bio of someone else. This is more details, and we should
         probably get these details from somewhere and agree on the copy and what
@@ -63,27 +67,33 @@ const IndexPage = () => (
       />
     </div>
 
-    <hr />
+    <hr className={styles.white}></hr>
 
-    <div>
-      <p>
-        P: (312) 965-4899
-        <br />
-        1419 W 18th Street
-        <br />
-        Chicago, IL 60608
-      </p>
-      <h2 className={styles.subtitle}>Hours of Operation</h2>
-      <p>
-        11AM-6PM Monday thru Friday
-        <br />
-        12-5PM Saturday
-        <br />
-        Closed on Sundays
-      </p>
+    <div className={styles.flexContainer}>
+      <div>
+        <h2 className={styles.subtitle}>Contact Us</h2>
+        <p>
+          P: (312) 965-4899
+          <br />
+          1419 W 18th Street
+          <br />
+          Chicago, IL 60608
+        </p>
+      </div>
+
+      <div>
+        <h2 className={styles.subtitle}>Hours of Operation</h2>
+        <p>
+          11AM-6PM Monday thru Friday
+          <br />
+          12-5PM Saturday
+          <br />
+          Closed on Sundays
+        </p>
+      </div>
     </div>
 
-    <hr />
+    <hr className={styles.gold}></hr>
 
     <div>
       <h1 className={styles.welcomeBannerTitle}>Gallery</h1>
@@ -161,24 +171,23 @@ const IndexPage = () => (
       />
     </div>
 
-    <hr />
+    <hr className={styles.gold}></hr>
 
     <div className={styles.centering}>
       <p>Thank you for your support!</p>
       <p>
         Follow us on Instagram{" "}
-        <p>
+        <span>
           <a href="https://www.instagram.com/devicefixinc/" target="blank">
             <StaticImage
               src="../images/instagram-icon.png"
-              width={60}
+              width={24}
               quality={95}
               formats={["auto", "webp", "avif"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
+              alt="Instagram icon"
             />
           </a>
-        </p>
+        </span>
       </p>
     </div>
   </Layout>
