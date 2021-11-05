@@ -39,3 +39,7 @@
 .bioCopy {
   max-width: 26rem;
 }
+
+.galleryImage {
+  margin: 0 3rem 3rem 3rem;
+}

@@ -99,75 +99,75 @@ const IndexPage = () => (
       <h1 className={styles.welcomeBannerTitle}>Gallery</h1>
 
       <StaticImage
+        className={styles.galleryImage}
         src="../images/phone-case.jpg"
         width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
       />
 
       <StaticImage
+        className={styles.galleryImage}
         src="../images/phone-cases.jpg"
         width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
       />
 
       <StaticImage
+        className={styles.galleryImage}
         src="../images/microchip-2.jpg"
         width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
       />
 
       <StaticImage
+        className={styles.galleryImage}
         src="../images/soldering.jpg"
         width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
       />
 
       <StaticImage
+        className={styles.galleryImage}
         src="../images/mario-and-yoshi.jpg"
         width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
       />
 
       <StaticImage
+        className={styles.galleryImage}
         src="../images/super-nintendo-controller.jpg"
         width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
       />
 
       <StaticImage
+        className={styles.galleryImage}
         src="../images/ps4-controller.jpg"
         width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
       />
 
       <StaticImage
+        className={styles.galleryImage}
         src="../images/open-phone.jpg"
         width={400}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
       />
     </div>
 
