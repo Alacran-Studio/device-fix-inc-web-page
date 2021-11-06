@@ -23,17 +23,20 @@
 }
 
 .white {
-    background-color: #ebefef;
+  background-color: #ebefef;
 }
 
 .gold {
-    background-color: #d8a062;
+  background-color: #d8a062;
 }
 
 .flexContainer {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.spaceBetween {
+  justify-content: space-between;
 }
 
 .bioCopy {
@@ -41,5 +44,6 @@
 }
 
 .galleryImage {
-  margin: 0 3rem 3rem 3rem;
+  flex: 1 0 46%;
+  margin: 0 1rem 2rem 1rem;
 }
