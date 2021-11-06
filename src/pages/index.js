@@ -12,11 +12,13 @@ const IndexPage = () => (
     <Seo title="Home" />
 
     <div className={styles.welcomeBannerContainer}>
-      <h1 className={styles.welcomeBannerTitle}>Device Repair Shop</h1>
+      <h1 className={styles.welcomeBannerTitle}>Device Fix Inc.</h1>
       <StaticImage
         src="../images/repair-shop.jpg"
         width={600}
         quality={95}
+        placeholder="blurred"
+        layout="constrained"
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
         style={{ marginBottom: `1.45rem` }}
@@ -26,17 +28,19 @@ const IndexPage = () => (
 
     <div className={styles.centering}>
       <p>
-        This is an intro paragraph. 
-        This is where we really tell the story of who the business is, what they do, and why they do it.
-        Visitors will be able to visit this site to learn more about the business, find hot deals, and receive a service quickly, easily, and pain-free.
+        This is an intro paragraph. This is where we really tell the story of
+        who the business is, what they do, and why they do it. Visitors will be
+        able to visit this site to learn more about the business, find hot
+        deals, and receive a service quickly, easily, and pain-free.
       </p>
     </div>
-
 
     <div className={styles.flexContainer}>
       <StaticImage
         src="../images/man2-circle.png"
         width={360}
+        placeholder="blurred"
+        layout="constrained"
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -60,6 +64,8 @@ const IndexPage = () => (
       <StaticImage
         src="../images/man1-circle.png"
         width={360}
+        placeholder="blurred"
+        layout="constrained"
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
@@ -97,78 +103,103 @@ const IndexPage = () => (
 
     <div>
       <h1 className={styles.welcomeBannerTitle}>Gallery</h1>
+      <div className={styles.galleryImages}>
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/phone-case.jpg"
+          width={380}
+          height={232}
+          placeholder="blurred"
+          layout="constrained"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
 
-      <StaticImage
-        className={styles.galleryImage}
-        src="../images/phone-case.jpg"
-        width={400}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-      />
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/phone-cases.jpg"
+          width={380}
+          height={232}
+          placeholder="blurred"
+          layout="constrained"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
 
-      <StaticImage
-        className={styles.galleryImage}
-        src="../images/phone-cases.jpg"
-        width={400}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-      />
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/microchip-2.jpg"
+          width={380}
+          height={232}
+          placeholder="blurred"
+          layout="constrained"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
 
-      <StaticImage
-        className={styles.galleryImage}
-        src="../images/microchip-2.jpg"
-        width={400}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-      />
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/soldering.jpg"
+          width={380}
+          height={232}
+          placeholder="blurred"
+          layout="constrained"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
 
-      <StaticImage
-        className={styles.galleryImage}
-        src="../images/soldering.jpg"
-        width={400}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-      />
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/mario-and-yoshi.jpg"
+          width={380}
+          height={232}
+          placeholder="blurred"
+          layout="constrained"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
 
-      <StaticImage
-        className={styles.galleryImage}
-        src="../images/mario-and-yoshi.jpg"
-        width={400}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-      />
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/super-nintendo-controller.jpg"
+          width={380}
+          height={232}
+          placeholder="blurred"
+          layout="constrained"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
 
-      <StaticImage
-        className={styles.galleryImage}
-        src="../images/super-nintendo-controller.jpg"
-        width={400}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-      />
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/ps4-controller.jpg"
+          width={380}
+          height={232}
+          placeholder="blurred"
+          layout="constrained"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
 
-      <StaticImage
-        className={styles.galleryImage}
-        src="../images/ps4-controller.jpg"
-        width={400}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-      />
-
-      <StaticImage
-        className={styles.galleryImage}
-        src="../images/open-phone.jpg"
-        width={400}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-      />
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/open-phone.jpg"
+          width={380}
+          height={232}
+          placeholder="blurred"
+          layout="constrained"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
+      </div>
     </div>
 
     <hr className={styles.gold}></hr>

@@ -23,11 +23,11 @@
 }
 
 .white {
-    background-color: #ebefef;
+  background-color: #ebefef;
 }
 
 .gold {
-    background-color: #d8a062;
+  background-color: #d8a062;
 }
 
 .flexContainer {
@@ -40,6 +40,12 @@
   max-width: 26rem;
 }
 
+.galleryImages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .galleryImage {
-  margin: 0 3rem 3rem 3rem;
+  flex: 1 0 46%;
+  margin: 0 1rem 2rem 1rem;
 }
