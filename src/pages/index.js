@@ -35,7 +35,7 @@ const IndexPage = () => (
       </p>
     </div>
 
-    <div className={styles.flexContainer}>
+    <div className={styles.flexContainer + " " + styles.spaceBetween}>
       <StaticImage
         src="../images/man2-circle.png"
         width={360}
@@ -54,7 +54,7 @@ const IndexPage = () => (
       </p>
     </div>
 
-    <div className={styles.flexContainer}>
+    <div className={styles.flexContainer + " " + styles.spaceBetween}>
       <p className={styles.bioCopy}>
         This is the bio of someone else. This is more details, and we should
         probably get these details from somewhere and agree on the copy and what
@@ -75,7 +75,7 @@ const IndexPage = () => (
 
     <hr className={styles.white}></hr>
 
-    <div className={styles.flexContainer}>
+    <div className={styles.flexContainer + " " + styles.spaceBetween}>
       <div>
         <h2 className={styles.subtitle}>Contact Us</h2>
         <p>
@@ -103,7 +103,7 @@ const IndexPage = () => (
 
     <div>
       <h1 className={styles.welcomeBannerTitle}>Gallery</h1>
-      <div className={styles.galleryImages}>
+      <div className={styles.flexContainer}>
         <StaticImage
           className={styles.galleryImage}
           src="../images/phone-case.jpg"

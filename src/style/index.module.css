@@ -32,17 +32,15 @@
 
 .flexContainer {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.spaceBetween {
+  justify-content: space-between;
 }
 
 .bioCopy {
   max-width: 26rem;
-}
-
-.galleryImages {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .galleryImage {
