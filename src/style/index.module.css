@@ -8,6 +8,21 @@
   color: #d8a062;
   font-family: "Playball";
   margin-top: 1.45rem;
+  font-size: 4rem;
+}
+
+.goldSubsectionTitle {
+  color: #d8a062;
+  font-family: "Playball";
+  margin-top: 1.45rem;
+  text-align: center;
+}
+
+.whiteSubsectionTitle {
+  color: #d8a062;
+  font-family: "Playball";
+  margin-top: 1.45rem;
+  text-align: center;
 }
 
 .welcomeBannerSubtitle {
@@ -33,10 +48,13 @@
 .flexContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.spaceBetween {
-  justify-content: space-between;
+.introCopy {
+  max-width: 32rem;
+  margin: auto;
+  text-align: center;
 }
 
 .bioCopy {
@@ -46,4 +64,12 @@
 .galleryImage {
   flex: 1 0 46%;
   margin: 0 1rem 2rem 1rem;
+}
+
+.instagramIcon {
+  margin-left: 1rem;
+}
+
+.noBullets {
+  list-style-type: none;
 }
