@@ -51,6 +51,12 @@
   justify-content: space-between;
 }
 
+.introCopy {
+  max-width: 32rem;
+  margin: auto;
+  text-align: center;
+}
+
 .bioCopy {
   max-width: 26rem;
 }
@@ -62,4 +68,8 @@
 
 .instagramIcon {
   margin-left: 1rem;
+}
+
+.noBullets {
+  list-style-type: none;
 }

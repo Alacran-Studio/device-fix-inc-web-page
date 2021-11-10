@@ -26,12 +26,27 @@ const IndexPage = () => (
       <h2 className={styles.welcomeBannerSubtitle}>COMMUNITY MATTERS</h2>
     </div>
 
-    <div className={styles.centering}>
+    <div className={styles.introCopy}>
       <p>
         Since 2009, we’ve been in the cell phone industry. During this time, we saw the void in our neighborhoods when it came to servicing defective phones, tablets, and game consoles. Insurance companies can have outrageous policies, mandates, and expensive prices.
       </p>
       <p>Fast forward a couple of years and we’ve decided to open Device Fix in order to be a resource for our community.</p>
       <p>We offer more than cell phone fixing, we are a one stop shop.</p>
+    </div>
+
+    <hr className={styles.white}></hr>
+
+    <div className={styles.centering}>
+      <div>
+        <h1 className={styles.subtitle}>Our Services</h1>
+        <ul className={styles.noBullets}>
+          <li>Screen Repair</li>
+          <li>Back Glass</li>
+          <li>Water Damage Devices</li>
+          <li>Game Consoles</li>
+          <li>Tablets</li>
+        </ul>
+      </div>
     </div>
 
     <hr className={styles.gold}></hr>
