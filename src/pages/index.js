@@ -36,7 +36,7 @@ const IndexPage = () => (
         style={{ marginBottom: `1.45rem` }}
       />
       <h2 className={styles.welcomeBannerSubtitle}>COMMUNITY MATTERS</h2>
-      <div className={styles.border} style={{ paddingBottom: "20px" }}>
+      <div className={styles.border} style={{ paddingBottom: "50px" }}>
         <StaticImage src="../images/regal-bottom-left.png" width={100} />
         <StaticImage
           src="../images/regal-bottom-left.png"
