@@ -7,7 +7,6 @@
 .welcomeBannerTitle {
   color: #d8a062;
   font-family: "Playball";
-  margin-top: 1.45rem;
   font-size: 4rem;
 }
 
@@ -72,4 +71,9 @@
 
 .noBullets {
   list-style-type: none;
+}
+
+.border {
+  display: flex;
+  justify-content: space-between;
 }

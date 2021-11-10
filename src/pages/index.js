@@ -12,6 +12,18 @@ const IndexPage = () => (
     <Seo title="Home" />
 
     <div className={styles.welcomeBannerContainer}>
+      <div className={styles.border} style={{ paddingTop: "20px" }}>
+        <StaticImage
+          src="../images/regal-bottom-left.png"
+          width={100}
+          style={{ transform: "scaleY(-1)" }}
+        />
+        <StaticImage
+          src="../images/regal-bottom-left.png"
+          width={100}
+          style={{ transform: "scale(-1, -1)" }}
+        />
+      </div>
       <h1 className={styles.welcomeBannerTitle}>Device Fix Inc.</h1>
       <StaticImage
         src="../images/community.png"
@@ -24,13 +36,27 @@ const IndexPage = () => (
         style={{ marginBottom: `1.45rem` }}
       />
       <h2 className={styles.welcomeBannerSubtitle}>COMMUNITY MATTERS</h2>
+      <div className={styles.border} style={{ paddingBottom: "20px" }}>
+        <StaticImage src="../images/regal-bottom-left.png" width={100} />
+        <StaticImage
+          src="../images/regal-bottom-left.png"
+          width={100}
+          style={{ transform: "scaleX(-1)" }}
+        />
+      </div>
     </div>
 
     <div className={styles.introCopy}>
       <p>
-        Since 2009, we’ve been in the cell phone industry. During this time, we saw the void in our neighborhoods when it came to servicing defective phones, tablets, and game consoles. Insurance companies can have outrageous policies, mandates, and expensive prices.
+        Since 2009, we’ve been in the cell phone industry. During this time, we
+        saw the void in our neighborhoods when it came to servicing defective
+        phones, tablets, and game consoles. Insurance companies can have
+        outrageous policies, mandates, and expensive prices.
       </p>
-      <p>Fast forward a couple of years and we’ve decided to open Device Fix in order to be a resource for our community.</p>
+      <p>
+        Fast forward a couple of years and we’ve decided to open Device Fix in
+        order to be a resource for our community.
+      </p>
       <p>We offer more than cell phone fixing, we are a one stop shop.</p>
     </div>
 
@@ -65,7 +91,7 @@ const IndexPage = () => (
           style={{
             marginBottom: `1.45rem`,
             marginLeft: `auto`,
-            marginRight: `auto`
+            marginRight: `auto`,
           }}
         />
 
@@ -74,7 +100,10 @@ const IndexPage = () => (
             <h2 className={styles.subtitle}>
               Meet Gerardo
               <span className={styles.instagramIcon}>
-                <a href="https://www.instagram.com/titothedancer/" target="blank">
+                <a
+                  href="https://www.instagram.com/titothedancer/"
+                  target="blank"
+                >
                   <StaticImage
                     src="../images/instagram-icon.png"
                     width={24}
@@ -86,9 +115,15 @@ const IndexPage = () => (
               </span>
             </h2>
             <p>
-              His passion comes from teaching youth with coordinated dance. Growing up in the SouthEast of Chicago, his passion for technology started when he was young. His daily drive comes from his lovely family and his newborn son.
+              His passion comes from teaching youth with coordinated dance.
+              Growing up in the SouthEast of Chicago, his passion for technology
+              started when he was young. His daily drive comes from his lovely
+              family and his newborn son.
             </p>
-            <p>His flourishing growth has now made him a proud owner of Device Fix.</p>
+            <p>
+              His flourishing growth has now made him a proud owner of Device
+              Fix.
+            </p>
           </div>
 
           <div>
@@ -107,13 +142,15 @@ const IndexPage = () => (
               </span>
             </h2>
             <p>
-              His mission in business has always been to grow and help others grow in order to be successful in business; it’s a “one hand helps the other” approach. He believes in community and youth resource investment as it has always paid dividends in the success of his businesses. He’s part owner in Device Fix.
+              His mission in business has always been to grow and help others
+              grow in order to be successful in business; it’s a “one hand helps
+              the other” approach. He believes in community and youth resource
+              investment as it has always paid dividends in the success of his
+              businesses. He’s part owner in Device Fix.
             </p>
           </div>
         </div>
       </div>
-
-
     </div>
 
     <hr className={styles.white}></hr>
@@ -248,7 +285,10 @@ const IndexPage = () => (
     <hr className={styles.gold}></hr>
 
     <div className={styles.centering}>
-      <p>Thank you for your support and we look forward to meeting you and servicing your needs.</p>
+      <p>
+        Thank you for your support and we look forward to meeting you and
+        servicing your needs.
+      </p>
       <p>
         Follow us on Instagram
         <span className={styles.instagramIcon}>
