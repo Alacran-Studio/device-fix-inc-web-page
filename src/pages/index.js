@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -14,7 +13,7 @@ const IndexPage = () => (
     <div className={styles.welcomeBannerContainer}>
       <h1 className={styles.welcomeBannerTitle}>Device Fix Inc.</h1>
       <StaticImage
-        src="../images/community.png"
+        src="../images/community.JPG"
         width={600}
         quality={95}
         placeholder="blurred"
@@ -44,7 +43,7 @@ const IndexPage = () => (
           <li>Back Glass</li>
           <li>Water Damage Devices</li>
           <li>Game Consoles</li>
-          <li>Tablets</li>
+          <li>Tablets & More</li>
         </ul>
       </div>
     </div>
@@ -122,7 +121,7 @@ const IndexPage = () => (
       <div>
         <h2 className={styles.subtitle}>Contact Us</h2>
         <p>
-          P: (312) 965-4899
+          P: <a className={styles.whiteText} href="tel:+1-800-555-5555">(312) 965-4899</a>
           <br />
           1419 W 18th Street
           <br />
@@ -133,9 +132,9 @@ const IndexPage = () => (
       <div>
         <h2 className={styles.subtitle}>Hours of Operation</h2>
         <p>
-          11AM-6PM Monday thru Friday
+          11am-6pm Monday thru Friday
           <br />
-          12-5PM Saturday
+          12-5pm Saturday
           <br />
           Closed on Sundays
         </p>
@@ -149,8 +148,8 @@ const IndexPage = () => (
       <div className={styles.flexContainer}>
         <StaticImage
           className={styles.galleryImage}
-          src="../images/phone-case.jpg"
-          width={380}
+          src="../images/iphones.JPG"
+          width={400}
           height={232}
           placeholder="blurred"
           layout="constrained"
@@ -161,8 +160,8 @@ const IndexPage = () => (
 
         <StaticImage
           className={styles.galleryImage}
-          src="../images/phone-cases.jpg"
-          width={380}
+          src="../images/iphone-parlor-10.JPG"
+          width={400}
           height={232}
           placeholder="blurred"
           layout="constrained"
@@ -173,8 +172,8 @@ const IndexPage = () => (
 
         <StaticImage
           className={styles.galleryImage}
-          src="../images/microchip-2.jpg"
-          width={380}
+          src="../images/iphone-parlor-16.JPG"
+          width={400}
           height={232}
           placeholder="blurred"
           layout="constrained"
@@ -185,8 +184,8 @@ const IndexPage = () => (
 
         <StaticImage
           className={styles.galleryImage}
-          src="../images/soldering.jpg"
-          width={380}
+          src="../images/tabletop.JPG"
+          width={400}
           height={232}
           placeholder="blurred"
           layout="constrained"
@@ -197,8 +196,8 @@ const IndexPage = () => (
 
         <StaticImage
           className={styles.galleryImage}
-          src="../images/mario-and-yoshi.jpg"
-          width={380}
+          src="../images/switch-repair.JPG"
+          width={400}
           height={232}
           placeholder="blurred"
           layout="constrained"
@@ -209,8 +208,8 @@ const IndexPage = () => (
 
         <StaticImage
           className={styles.galleryImage}
-          src="../images/super-nintendo-controller.jpg"
-          width={380}
+          src="../images/storefront.JPG"
+          width={400}
           height={232}
           placeholder="blurred"
           layout="constrained"
@@ -221,8 +220,8 @@ const IndexPage = () => (
 
         <StaticImage
           className={styles.galleryImage}
-          src="../images/ps4-controller.jpg"
-          width={380}
+          src="../images/gerardo-headshot.jpg"
+          width={400}
           height={232}
           placeholder="blurred"
           layout="constrained"
@@ -233,8 +232,8 @@ const IndexPage = () => (
 
         <StaticImage
           className={styles.galleryImage}
-          src="../images/open-phone.jpg"
-          width={380}
+          src="../images/iphone-parlor-22.JPG"
+          width={400}
           height={232}
           placeholder="blurred"
           layout="constrained"
