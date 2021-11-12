@@ -11,7 +11,19 @@ const IndexPage = () => (
     <Seo title="Home" />
 
     <div className={styles.welcomeBannerContainer}>
-      <h1 className={styles.welcomeBannerTitle}>Device Fix Inc.</h1>
+      <div className={styles.logo}>
+        <StaticImage
+          src="../images/device-fix-logo.png"
+          width={350}
+          quality={95}
+          placeholder="blurred"
+          layout="constrained"
+          formats={["auto", "webp", "avif"]}
+          alt="Device Fix Inc. Logo"
+          style={{ marginBottom: `1.45rem` }}
+        />
+      </div>
+
       <StaticImage
         src="../images/community.JPG"
         width={600}
