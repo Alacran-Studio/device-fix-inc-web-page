@@ -17,7 +17,6 @@ const IndexPage = () => (
           width={350}
           quality={95}
           placeholder="blurred"
-          layout="constrained"
           formats={["auto", "webp", "avif"]}
           alt="Device Fix Inc. Logo"
           style={{ marginBottom: `1.45rem` }}
@@ -29,7 +28,6 @@ const IndexPage = () => (
         width={600}
         quality={95}
         placeholder="blurred"
-        layout="constrained"
         formats={["auto", "webp", "avif"]}
         alt="The Pilsen community outside of Device Fix Inc."
         style={{ marginBottom: `1.45rem` }}
@@ -67,9 +65,8 @@ const IndexPage = () => (
       <div className={styles.flexContainer}>
         <StaticImage
           src="../images/gerardo-and-manuel.png"
-          width={320}
+          width={420}
           placeholder="blurred"
-          layout="constrained"
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="A Gatsby astronaut"
@@ -158,73 +155,13 @@ const IndexPage = () => (
     <div>
       <h1 className={styles.goldSubsectionTitle}>Gallery</h1>
       <div className={styles.flexContainer}>
-        <StaticImage
-          className={styles.galleryImage}
-          src="../images/iphones.JPG"
-          width={400}
-          height={232}
-          placeholder="blurred"
-          layout="constrained"
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt="A Gatsby astronaut"
-        />
-
-        <StaticImage
-          className={styles.galleryImage}
-          src="../images/iphone-parlor-10.JPG"
-          width={400}
-          height={232}
-          placeholder="blurred"
-          layout="constrained"
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt="A Gatsby astronaut"
-        />
-
-        <StaticImage
-          className={styles.galleryImage}
-          src="../images/iphone-parlor-16.JPG"
-          width={400}
-          height={232}
-          placeholder="blurred"
-          layout="constrained"
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt="A Gatsby astronaut"
-        />
-
-        <StaticImage
-          className={styles.galleryImage}
-          src="../images/tabletop.JPG"
-          width={400}
-          height={232}
-          placeholder="blurred"
-          layout="constrained"
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt="A Gatsby astronaut"
-        />
-
-        <StaticImage
-          className={styles.galleryImage}
-          src="../images/switch-repair.JPG"
-          width={400}
-          height={232}
-          placeholder="blurred"
-          layout="constrained"
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt="A Gatsby astronaut"
-        />
 
         <StaticImage
           className={styles.galleryImage}
           src="../images/storefront.JPG"
-          width={400}
-          height={232}
+          width={420}
+          height={320}
           placeholder="blurred"
-          layout="constrained"
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="A Gatsby astronaut"
@@ -232,11 +169,10 @@ const IndexPage = () => (
 
         <StaticImage
           className={styles.galleryImage}
-          src="../images/gerardo-headshot.jpg"
-          width={400}
-          height={232}
+          src="../images/gerardo-headshot.png"
+          width={420}
+          height={320}
           placeholder="blurred"
-          layout="constrained"
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="A Gatsby astronaut"
@@ -245,14 +181,69 @@ const IndexPage = () => (
         <StaticImage
           className={styles.galleryImage}
           src="../images/iphone-parlor-22.JPG"
-          width={400}
-          height={232}
+          width={420}
+          height={320}
           placeholder="blurred"
-          layout="constrained"
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="A Gatsby astronaut"
         />
+
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/iphones.JPG"
+          width={420}
+          height={320}
+          placeholder="blurred"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
+
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/tabletop.JPG"
+          width={420}
+          height={320}
+          placeholder="blurred"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
+
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/iphone-parlor-16.JPG"
+          width={420}
+          height={320}
+          placeholder="blurred"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
+
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/iphone-parlor-10.JPG"
+          width={420}
+          height={320}
+          placeholder="blurred"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
+
+        <StaticImage
+          className={styles.galleryImage}
+          src="../images/switch-repair.JPG"
+          width={420}
+          height={320}
+          placeholder="blurred"
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="A Gatsby astronaut"
+        />
+
       </div>
     </div>
 
