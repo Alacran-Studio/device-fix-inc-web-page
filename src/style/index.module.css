@@ -1,6 +1,10 @@
 .welcomeBannerContainer {
   color: #ebefef;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 50px 0;
+  justify-content: center;
 }
 
 /* .logo {
@@ -76,5 +80,6 @@
 
 .border {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }

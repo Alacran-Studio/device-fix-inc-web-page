@@ -11,41 +11,43 @@ const IndexPage = () => (
     <Seo title="Home" />
 
     <div className={styles.welcomeBannerContainer}>
-      <div className={styles.border} style={{ marginTop: "20px" }}>
+      <div className={styles.border}>
         <StaticImage
           src="../images/regal-border.png"
           width={100}
           style={{ transform: "scaleY(-1)" }}
         />
+        <StaticImage src="../images/regal-border.png" width={100} />
+      </div>
+      <div>
+        <div className={styles.logo}>
+          <StaticImage
+            src="../images/device-fix-logo.png"
+            width={350}
+            quality={95}
+            placeholder="blurred"
+            formats={["auto", "webp", "avif"]}
+            alt="Device Fix Inc. Logo"
+          />
+        </div>
+
+        <StaticImage
+          src="../images/community.JPG"
+          width={600}
+          quality={95}
+          placeholder="blurred"
+          formats={["auto", "webp", "avif"]}
+          alt="The Pilsen community outside of Device Fix Inc."
+          style={{ marginBottom: `1.45rem` }}
+        />
+        <h2 className={styles.welcomeBannerSubtitle}>COMMUNITY MATTERS</h2>
+      </div>
+      <div className={styles.border}>
         <StaticImage
           src="../images/regal-border.png"
           width={100}
           style={{ transform: "scale(-1, -1)" }}
         />
-      </div>
-      <div className={styles.logo}>
-        <StaticImage
-          src="../images/device-fix-logo.png"
-          width={350}
-          quality={95}
-          placeholder="blurred"
-          formats={["auto", "webp", "avif"]}
-          alt="Device Fix Inc. Logo"
-        />
-      </div>
-
-      <StaticImage
-        src="../images/community.JPG"
-        width={600}
-        quality={95}
-        placeholder="blurred"
-        formats={["auto", "webp", "avif"]}
-        alt="The Pilsen community outside of Device Fix Inc."
-        style={{ marginBottom: `1.45rem` }}
-      />
-      <h2 className={styles.welcomeBannerSubtitle}>COMMUNITY MATTERS</h2>
-      <div className={styles.border} style={{ marginBottom: `50px` }}>
-        <StaticImage src="../images/regal-border.png" width={100} />
         <StaticImage
           src="../images/regal-border.png"
           style={{ transform: "scaleX(-1)" }}
