@@ -8,14 +8,14 @@
 }
 
 .goldSubsectionTitle {
-  color: #D1A16C;
+  color: #d1a16c;
   font-family: "Playball";
   margin-top: 1.45rem;
   text-align: center;
 }
 
 .whiteSubsectionTitle {
-  color: #D1A16C;
+  color: #d1a16c;
   font-family: "Playball";
   margin-top: 1.45rem;
   text-align: center;
@@ -42,7 +42,7 @@
 }
 
 .gold {
-  background-color: #D1A16C;
+  background-color: #d1a16c;
 }
 
 .flexContainer {
@@ -72,4 +72,9 @@
 
 .noBullets {
   list-style-type: none;
+}
+
+.border {
+  display: flex;
+  justify-content: space-between;
 }
