@@ -89,7 +89,7 @@ const IndexPage = () => (
 
     <div>
       <h1 className={styles.goldSubsectionTitle}>Who We Are</h1>
-      <div className={styles.flexContainer}>
+      <div className={styles.flexContainerSpaceBetween}>
         <StaticImage
           src="../images/gerardo-and-manuel.png"
           width={420}
@@ -164,7 +164,7 @@ const IndexPage = () => (
 
     <hr className={styles.white}></hr>
 
-    <div className={styles.flexContainer}>
+    <div className={styles.flexContainerSpaceEvenly}>
       <div>
         <h2 className={styles.subtitle}>Contact Us</h2>
         <p>
@@ -173,9 +173,10 @@ const IndexPage = () => (
             (312) 965-4899
           </a>
           <br />
-          1419 W 18th Street
-          <br />
-          Chicago, IL 60608
+          <a className={styles.whiteText} href="https://goo.gl/maps/iRrxgK8uZQqEkVwH9">
+            1419 W 18th Street
+            Chicago, IL
+          </a>
         </p>
       </div>
 
@@ -195,7 +196,7 @@ const IndexPage = () => (
 
     <div>
       <h1 className={styles.goldSubsectionTitle}>Gallery</h1>
-      <div className={styles.flexContainer}>
+      <div className={styles.flexContainerSpaceBetween}>
         <StaticImage
           className={styles.galleryImage}
           src="../images/storefront.JPG"
