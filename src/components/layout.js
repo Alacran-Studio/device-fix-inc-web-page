@@ -38,6 +38,18 @@ const Layout = ({ children }) => {
             textAlign: `center`,
           }}
         >
+          <p>
+            <a
+              href="https://www.vecteezy.com/free-vector/royal-border"
+              style={{
+                color: "#d1a16c",
+                textDecoration: "none",
+                fontSize: "16px",
+              }}
+            >
+              Royal Border Vectors by Vecteezy
+            </a>
+          </p>
           © {new Date().getFullYear()}, Built by Alacrán Digital Services.
         </footer>
       </div>
