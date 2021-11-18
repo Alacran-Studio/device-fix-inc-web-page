@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Device Repair Shop`,
+    title: `Device Fix Inc.`,
     description: `Your local device repair shop, with a touch of class.`,
     author: `@jvmontes`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://www.devicefixinc.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
