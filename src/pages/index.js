@@ -91,7 +91,7 @@ const IndexPage = () => (
       <h1 className={styles.goldSubsectionTitle}>Who We Are</h1>
       <div className={styles.flexContainerSpaceBetween}>
         <StaticImage
-          src="../images/gerardo-and-manuel.png"
+          src="../images/tito-and-miguel.png"
           width={420}
           placeholder="blurred"
           quality={95}
