@@ -169,7 +169,7 @@ const IndexPage = () => (
         <h2 className={styles.subtitle}>Contact Us</h2>
         <p>
           P:{" "}
-          <a className={styles.whiteText} href="tel:+1-800-555-5555">
+          <a className={styles.whiteText} href="tel:+1-312-965-4899">
             (312) 965-4899
           </a>
           <br />
