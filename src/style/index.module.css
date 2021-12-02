@@ -14,7 +14,7 @@
 }
 
 .goldSubsectionTitle {
-  color: #d1a16c;
+  color: #615d59;
   font-family: "Playball";
   margin-top: 1.45rem;
   text-align: center;
@@ -91,4 +91,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.promo {
+  border: 1px dashed #d1a16c;
+  padding: 0.5rem 0 0.5rem 0;
+  max-width: 584px;
+  margin-left: auto;
+  margin-right: auto;
 }
