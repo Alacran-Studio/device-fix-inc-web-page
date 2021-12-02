@@ -294,6 +294,7 @@ const IndexPage = () => (
         Thank you for your support and we look forward to meeting you and
         servicing your needs.
       </p>
+      <p className={styles.promo}><strong>20% off the whole month of December on your next repair.</strong></p>
       <p>
         Follow us on Instagram
         <span className={styles.instagramIcon}>
