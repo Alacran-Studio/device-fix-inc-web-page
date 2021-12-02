@@ -127,7 +127,7 @@ const IndexPage = () => (
               His passion comes from teaching youth with coordinated dance.
               Growing up in the SouthEast of Chicago, his passion for technology
               started when he was young. His daily drive comes from his lovely
-              family and his newborn son.
+              family and his newborn daughter.
             </p>
             <p>
               His flourishing growth has now made him a proud owner of Device
