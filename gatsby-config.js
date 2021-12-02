@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Device Repair Shop`,
+    title: `Device Fix Inc.`,
     description: `Your local device repair shop, with a touch of class.`,
     author: `@jvmontes`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://www.devicefixinc.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -38,7 +38,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/device-fix-icon.png`, // This path is relative to the root of the site.
       },
     },
 
