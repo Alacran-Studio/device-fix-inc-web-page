@@ -20,7 +20,7 @@ const IndexPage = () => (
         <StaticImage src="../images/regal-border.png" width={100} />
       </div>
       <div>
-        <div className={styles.logo}>
+        <div>
           <StaticImage
             src="../images/device-fix-logo.png"
             width={350}
@@ -183,9 +183,7 @@ const IndexPage = () => (
       <div>
         <h2 className={styles.subtitle}>Hours of Operation</h2>
         <p>
-          11am-6pm Monday thru Friday
-          <br />
-          12-5pm Saturday
+          11am-6pm Monday thru Saturday
           <br />
           Closed on Sundays
         </p>
