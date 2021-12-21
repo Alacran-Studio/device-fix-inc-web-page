@@ -183,7 +183,7 @@ const IndexPage = () => (
       <div>
         <h2 className={styles.subtitle}>Hours of Operation</h2>
         <p>
-          11am-6pm Monday thru Saturday
+          10am-6pm Monday thru Saturday
           <br />
           Closed on Sundays
         </p>
