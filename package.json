@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jorge Viramontes <jmontes530@gmail.com>",
   "dependencies": {
     "gatsby": "^5.13.7",
     "gatsby-plugin-gatsby-cloud": "^5.13.1",

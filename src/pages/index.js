@@ -173,9 +173,11 @@ const IndexPage = () => (
             (312) 965-4899
           </a>
           <br />
-          <a className={styles.whiteText} href="https://goo.gl/maps/iRrxgK8uZQqEkVwH9">
-            1419 W 18th Street
-            Chicago, IL
+          <a
+            className={styles.whiteText}
+            href="https://goo.gl/maps/iRrxgK8uZQqEkVwH9"
+          >
+            1419 W 18th Street Chicago, IL
           </a>
         </p>
       </div>
@@ -183,7 +185,7 @@ const IndexPage = () => (
       <div>
         <h2 className={styles.subtitle}>Hours of Operation</h2>
         <p>
-          10am-8pm Monday thru Saturday
+          10am-6pm Monday thru Saturday
           <br />
           Closed on Sundays
         </p>
@@ -288,6 +290,19 @@ const IndexPage = () => (
     <hr className={styles.gold}></hr>
 
     <div className={styles.centering}>
+      <h1 className={styles.subtitle}>Check Out Our Ebay Store</h1>
+      <p> For deals and more, visit our store on Ebay! </p>
+      <p>
+        <a
+          className={styles.button}
+          href="https://www.ebay.com/str/devicefix1419"
+        >
+          Visit Our Ebay Store
+        </a>
+      </p>
+
+      <hr className={styles.gold}></hr>
+
       <p>
         Thank you for your support and we look forward to meeting you and
         servicing your needs.
